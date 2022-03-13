@@ -12,7 +12,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Router basename="/react_website">
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
