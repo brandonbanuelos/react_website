@@ -15,9 +15,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path= {process.env.PUBLIC_URL + '/'} element={<Home />} />
-        <Route path= {process.env.PUBLIC_URL + "/projects"} element={<Projects />} />
-        <Route path= {process.env.PUBLIC_URL + "/about"} element={<About />} />
+        <Route path= '/react_website' element={<Home />} />
+        <Route path= '/react_website/projects' element={<Projects />} />
+        <Route path= '/react_website/about' + "/about"} element={<About />} />
       </Routes>
       <Footer />
     </Router>
