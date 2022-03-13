@@ -12,12 +12,12 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Router path={process.env.PUBLIC_URL + '/'}>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
+        <Route path= {process.env.PUBLIC_URL + '/'} element={<Home />} />
+        <Route path= {process.env.PUBLIC_URL + "/projects"} element={<Projects />} />
+        <Route path= {process.env.PUBLIC_URL + "/about"} element={<About />} />
       </Routes>
       <Footer />
     </Router>
