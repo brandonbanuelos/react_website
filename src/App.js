@@ -10,7 +10,7 @@ import About from './pages/About';
 import {Route, Routes} from 'react-router-dom';
 
 function App() {
-  
+  document.title = "Brandon's Portfolio";
   return (
     <div className="App">
       <Navbar />
