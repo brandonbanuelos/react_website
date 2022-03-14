@@ -14,7 +14,7 @@ function App() {
     <div className="App">
     <Router>
       <Navbar />
-      <Routes path = {process.env.PUBLIC_URL}>
+      <Routes basename='react_website>
         <Route path= '/' element={<Home />} />
         <Route path= '/projects' element={<Projects />} />
         <Route path= '/about' element={<About />} />
