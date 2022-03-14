@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_website/static/css/main.4d302731.css",
-    "main.js": "/react_website/static/js/main.bd914a60.js",
+    "main.js": "/react_website/static/js/main.1c62ce4c.js",
     "static/js/787.e403dcb9.chunk.js": "/react_website/static/js/787.e403dcb9.chunk.js",
     "static/media/audio.mp3": "/react_website/static/media/audio.f776a7f34210af6ba2e1.mp3",
     "static/media/galaxy.jpeg": "/react_website/static/media/galaxy.d64dff47abed5805f6a3.jpeg",
@@ -14,11 +14,11 @@
     "index.html": "/react_website/index.html",
     "static/media/black-tie-brands.svg": "/react_website/static/media/black-tie-brands.8a9cb43c5eb07d81e59958631a73907f.svg",
     "main.4d302731.css.map": "/react_website/static/css/main.4d302731.css.map",
-    "main.bd914a60.js.map": "/react_website/static/js/main.bd914a60.js.map",
+    "main.1c62ce4c.js.map": "/react_website/static/js/main.1c62ce4c.js.map",
     "787.e403dcb9.chunk.js.map": "/react_website/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d302731.css",
-    "static/js/main.bd914a60.js"
+    "static/js/main.1c62ce4c.js"
   ]
 }
