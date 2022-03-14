@@ -7,17 +7,17 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
     <Router>
       <Navbar />
-      <Routes>
-        <Route path= '/react_website' element={<Home />} />
-        <Route path= '/react_website/projects' element={<Projects />} />
-        <Route path= '/react_website/about' + "/about"} element={<About />} />
+      <Routes path = {process.env.PUBLIC_URL}>
+        <Route path= '/' element={<Home />} />
+        <Route path= '/projects' element={<Projects />} />
+        <Route path= '/about' element={<About />} />
       </Routes>
       <Footer />
     </Router>
