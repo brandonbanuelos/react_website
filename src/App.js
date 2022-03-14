@@ -15,7 +15,7 @@ function App() {
   
   return (
     <div className="App">
-    <BrowserRouter basename={PUBLIC_URL}>
+    <BrowserRouter basename={PUBLIC_URL +'/'}>
       <Navbar />
       <Routes>
         <Route path= '/' element={<Home />} />
