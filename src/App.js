@@ -7,19 +7,23 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
-import {Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
+  
+  const {PUBLIC_URL} = process.env;
+  
   return (
     <div className="App">
-    
-    <Navbar />
-    <Routes>
-      <Route exact path= '/' element={<Home />} />
-      <Route exact path= '/projects' element={<Projects />} />
-      <Route exact path= '/about' element={<About />} />
-    </Routes>
-    <Footer />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path= '/' element={<Home />} />
+        <Route path= '/projects' element={<Projects />} />
+        <Route path= '/about' element={<About />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
     
     </div>
   );
