@@ -12,7 +12,7 @@ import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/react_website'>
       <Navbar />
       <Routes>
         <Route path= '/' element={<Home />} />
