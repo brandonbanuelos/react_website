@@ -12,12 +12,12 @@ import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Router basename='/react_website'>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path= '/' element={<Home />} />
-        <Route path= '/projects' element={<Projects />} />
-        <Route path= '/about' element={<About />} />
+        <Route exact path= '/' element={<Home />} />
+        <Route exact path= '/projects' element={<Projects />} />
+        <Route exact path= '/about' element={<About />} />
       </Routes>
       <Footer />
     </Router>
