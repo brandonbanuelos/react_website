@@ -16,7 +16,7 @@ function Home() {
                 <button>Learn more</button>
                 </ Link>
             </div>
-                <Weather />
+            <Weather />
         </div>
         
     );

@@ -1,7 +1,10 @@
 .weather {
     color:white;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 100px;
     margin-left: 50px;
+    width: 80%;
 }
 
 .weather h1{
@@ -10,5 +13,4 @@
 
 .weather p{
     font-size: 20px;
-    
 }
