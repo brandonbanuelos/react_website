@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_website/static/css/main.782ffe64.css",
+    "main.css": "/react_website/static/css/main.8ea4bac2.css",
     "main.js": "/react_website/static/js/main.2b3e3ff4.js",
     "static/js/787.e403dcb9.chunk.js": "/react_website/static/js/787.e403dcb9.chunk.js",
     "static/media/audio.mp3": "/react_website/static/media/audio.f776a7f34210af6ba2e1.mp3",
@@ -13,12 +13,12 @@
     "static/media/i3d.png": "/react_website/static/media/i3d.a35de3bea044d4157f23.png",
     "index.html": "/react_website/index.html",
     "static/media/black-tie-brands.svg": "/react_website/static/media/black-tie-brands.8a9cb43c5eb07d81e59958631a73907f.svg",
-    "main.782ffe64.css.map": "/react_website/static/css/main.782ffe64.css.map",
+    "main.8ea4bac2.css.map": "/react_website/static/css/main.8ea4bac2.css.map",
     "main.2b3e3ff4.js.map": "/react_website/static/js/main.2b3e3ff4.js.map",
     "787.e403dcb9.chunk.js.map": "/react_website/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.782ffe64.css",
+    "static/css/main.8ea4bac2.css",
     "static/js/main.2b3e3ff4.js"
   ]
 }
